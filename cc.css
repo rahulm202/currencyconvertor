@@ -1,0 +1,105 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  text-align: center;
+  background-origin: padding-box;
+  font-family:'poppins',sans-serif;
+  background-color:grey;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(98, 255, 108);
+  font-size:4rem;
+  
+}
+
+.convert,
+.exchange {
+  font-size: 25px;
+  color:rgb(255, 255, 255);
+  padding-right: 20px;
+}
+
+input {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px auto;
+  outline: 0;
+}
+
+#original-currency-amount {
+  padding-left: 50px;
+}
+button {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00539cff;
+  font-family: "Sansita Swashed", cursive;
+}
+
+select {
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  outline: 0;
+}
+
+#exchange {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin:  20px;
+  outline: 0;
+  color:white;
+  border: 3px solid rgb(169, 98, 255);
+}
+
+#exchange:active,
+button:active {
+  transform: scale(0.9);
+}
+
+#output-text {
+  display: none;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+span {
+  color: #ffd662ff;
+
+  font-size: 35px;
+}
+
+#exchange-rate {
+  cursor: default;
+}
+
+
+a {
+  color: #ffffff;
+  bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+}
